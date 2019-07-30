@@ -1,0 +1,8 @@
+<div class="offline" *ngIf="!online">You are offline!</div>
+<div class="navigation">
+  <button mat-raised-button color="primary" routerLink="/">Feed</button>
+  <button mat-raised-button color="primary" routerLink="/capture">Capture</button>
+</div>
+<div class="main-div">
+  <router-outlet></router-outlet>
+</div>
